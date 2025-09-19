@@ -1,0 +1,16 @@
+[project]
+name = "slng-task"
+version = "0.1.0"
+description = "technical task for SLNG"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "loguru>=0.7.3",
+    "pydantic>=2.11.9",
+    "pytest-asyncio>=1.2.0",
+    "pytest>=8.4.2",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "."
